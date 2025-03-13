@@ -12,10 +12,20 @@
 
 ## Installation
 
-You can install the required libraries using pip:
+You can treat it as a normal repository, clone it and install the requirements.
 
 ```bash
 pip install -r requirements.txt
+```
+
+Alternatively, install it as a package
+
+```bash
+# from main
+pip install git+https://github.com/eynsfordcq/python-http-retryable-client.git
+
+# from a specific branch (eg development)
+pip install git+https://github.com/eynsfordcq/python-http-retryable-client.git@development
 ```
 
 
